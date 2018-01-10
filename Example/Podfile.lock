@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SecretLib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SecretLib (from `../`)
+
+EXTERNAL SOURCES:
+  SecretLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SecretLib: d154b8a8fa82e6e3da89f3d20d666646499bb753
+
+PODFILE CHECKSUM: 4a9e3e830cf6118fc7436156bca824915a8b7422
+
+COCOAPODS: 1.4.0.beta.1
