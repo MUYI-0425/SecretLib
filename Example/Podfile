@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SecretLib_Example' do
+  pod 'SecretLib', :path => '../'
+
+  target 'SecretLib_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
